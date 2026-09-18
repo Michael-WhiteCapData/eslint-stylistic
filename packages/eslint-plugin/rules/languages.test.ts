@@ -22,7 +22,7 @@ describe('rule language metadata', () => {
   })
 
   it('includes JSON for the list-style rule', () => {
-    expect(getLanguages(listStyle)).toEqual(['js/*', 'json/*'])
+    expect(getLanguages(listStyle)).toEqual(['js/*', 'jsonc/*'])
   })
 
   it('allows text-only rules in any language', () => {

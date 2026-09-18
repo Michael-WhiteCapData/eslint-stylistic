@@ -138,7 +138,7 @@ export default createRule<RuleOptions, MessageIds>({
       shouldWrap: `Should have line break between '{{prev}}' and '{{next}}'`,
       shouldNotWrap: `Should not have line break(s) between '{{prev}}' and '{{next}}'`,
     },
-    languages: ['js/*', 'json/*'],
+    languages: ['js/*', 'jsonc/*'],
   },
   create: (context, [options]) => {
     const { sourceCode } = context
