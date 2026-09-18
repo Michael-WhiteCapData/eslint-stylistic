@@ -12,7 +12,7 @@ function getLanguages(rule: { meta?: unknown }) {
 
 describe('rule language metadata', () => {
   it('scopes shared configs to JavaScript-family files', () => {
-    const files = ['**/*.?([cm])[jt]s?(x)', '**/*.{astro,svelte,vue}']
+    const files = ['**/*.?([cm])js']
     expect(configs.recommended.files).toEqual(files)
     expect(configs.all.files).toEqual(files)
   })

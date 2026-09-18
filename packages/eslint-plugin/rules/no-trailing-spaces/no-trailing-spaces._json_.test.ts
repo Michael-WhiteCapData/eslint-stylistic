@@ -1,4 +1,3 @@
-/* eslint-disable style/no-tabs */
 import type { MessageIds, RuleOptions } from './types'
 import { $, run } from '#test'
 import rule from './no-trailing-spaces'

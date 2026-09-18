@@ -1,8 +1,7 @@
 import type { Linter } from 'eslint'
 
 export const JS_LANGUAGE_FILES = [
-  '**/*.?([cm])[jt]s?(x)',
-  '**/*.{astro,svelte,vue}',
+  '**/*.?([cm])js',
 ]
 
 /**
