@@ -13,6 +13,7 @@ function formatLanguage(language: string) {
     case 'js/*':
       return 'JS / TS'
     case 'json/*':
+    case 'jsonc/*':
       return 'JSON'
     default:
       return language
